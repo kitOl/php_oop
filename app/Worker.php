@@ -5,19 +5,11 @@ namespace App;
 class Worker
 {
 
-    public string $name;
-    public int $age;
-    public array $hours;
+    private string $name;
+    private int $age;
+    private array $hours;
 
-    public function __construct($name, $age, $hours)
-    {
-        $this->name = $name;
-        $this->age = $age;
-        $this->hours = $hours;
-    }
+    private string $position;
 
-    public function  work()
-    {
-        print_r('im working');
-    }
+    private int $experience;
 }

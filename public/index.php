@@ -8,6 +8,7 @@ require_once('./vendor/autoload.php');
 
 $developer = new Developer('Oleg', 54, [5, 6, 7]);
 
-var_dump($developer->name);
+// $developer->setPosition('developer');
+// var_dump($developer->getPosition());
 
-$developer->work();
+var_dump($developer);
